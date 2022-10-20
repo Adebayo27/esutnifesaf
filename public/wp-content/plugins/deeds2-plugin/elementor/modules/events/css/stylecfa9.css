@@ -1,0 +1,194 @@
+/*==================================
+  Style 1
+====================================*/
+.event-wrap {
+  width: 100%;
+  margin-bottom: -30px;
+}
+.event-wrap .event-item {margin-bottom: 30px;}
+.event-item-contnt {
+  background-color: #fff;
+  padding: 18px 40px 30px;
+}
+.event-item-loc {
+  background-color: #fff;
+  padding: 14px 40px;
+  border-top: 1px solid #ececec;
+}
+.event-item figure {
+  overflow: hidden;
+}
+.event-item figure img {
+  transition: all 0.45s;
+  -webkit-transition: all 0.45s;
+  -moz-transition: all 0.45s;
+  -o-transition: all 0.45s;
+}
+.event-item:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.event-item-meta span i,
+.event-item-loc span i {
+  padding-right: 14px;
+}
+.event-item-loc span i {
+  font-size: 15px;
+}
+.event-item-meta {
+  margin-bottom: 10px;
+}
+.event-item-meta span {
+  position: relative;
+}
+.event-item-meta span + span {
+  padding-left: 14px;
+}
+.event-item-meta span + span:before {
+  content: "-";
+  height: 100%;
+  /*width: 100%;*/
+  position: absolute;
+  left: 4px;
+  top: 0;
+}
+.event-item-contnt h2 {
+  margin-bottom: 0;
+}
+.event-item-contnt > span {
+  padding: 8px 10px;
+  position: relative;
+  top: -35px;
+}
+/*==================================
+  Style 2
+====================================*/
+.event-list-item {
+  border-top: 1px solid #ddd;
+  padding-top: 40px;
+  margin-top: 40px;
+  transition: all 0.35s;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  -o-transition: all 0.35s;
+  position: relative;
+}
+.event-list-wrap{
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 40px;
+}
+.event-list-wrap .row > div:first-child .event-list-item {
+  margin-top: 0;
+}
+.event-lst-img figure {
+  position: relative;
+  overflow: hidden;
+}
+.event-lst-img figure img {
+  width: 100%;
+}
+.event-lst-img figure::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.65);
+}
+.event-lst-img {
+  position: relative;
+  width: 30%;
+}
+.event-lst-img span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.event-lst-img span i,
+.event-lst-title span i {
+  padding-right: 8px;
+}
+.event-lst-title {
+  padding-left: 28px;
+  width: 68%;
+}
+.event-preacher img {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  padding-right: 15px;
+  width: 100%;
+}
+.event-list-item:hover {
+  border-color: transparent;
+}
+.event-list-item::before {
+  content: "";
+  height: 130%;
+  width: 108%;
+  background-color: #fff;
+  -webkit-box-shadow: 3px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 3px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 3px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 4px 20px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: -4%;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+}
+.event-list-item:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+.event-lst-info {
+  position: relative;
+  z-index: 3;
+}
+.event-lst-content {
+  position: relative;
+  z-index: 3;
+}
+/*==================================
+  Style 3
+====================================*/
+.event-item-contnt.styl3-bg {
+  background-color: #f9f9f9;
+}
+.event-item-loc.styl3-bg {
+  background-color: #f9f9f9;
+}
+.event-style3-wrap .event-item {
+  margin-top: 50px;
+}
+
+
+
+/*===== RTL Demo Style =====*/
+body.rtl .event-item-meta span i,
+body.rtl .event-item-loc span i {padding: 0 0 0 14px;}
+body.rtl .event-item-meta span + span {padding: 0 14px 0 0;}
+body.rtl .event-item-meta span + span:before {
+  left: auto;
+  right: 4px;
+}
+body.rtl .event-item-contnt,
+body.rtl .event-item-loc {text-align: right;}
+
+body.rtl .event-preacher img {padding: 0 0 0 15px;}
+body.rtl .ml-auto {
+  margin-left: initial !important;
+  margin-right: auto !important;
+}
+body.rtl .event-lst-title {padding: 0 28px 0 0;}
+body.rtl .event-lst-img span i,
+body.rtl .event-lst-title span i {padding: 0 0 0 8px;}

@@ -1,0 +1,42 @@
+.elementor-3246 .elementor-element.elementor-element-b29323a{margin-top:65px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-3246 .elementor-element.elementor-element-7fe4471 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-3246 .elementor-element.elementor-element-7fe4471:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-3246 .elementor-element.elementor-element-7fe4471 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#ffffff;}.elementor-3246 .elementor-element.elementor-element-7fe4471 > .elementor-element-populated{box-shadow:0px 7px 30px 0px rgba(0,0,0,0.05);transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-3246 .elementor-element.elementor-element-7fe4471 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-3246 .elementor-element.elementor-element-aaa81ec img{width:100%;}.elementor-3246 .elementor-element.elementor-element-ca480a1{margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-3246 .elementor-element.elementor-element-81c09b9 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-3246 .elementor-element.elementor-element-81c09b9 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:25px 50px 80px 50px;}.elementor-3246 .elementor-element.elementor-element-58a9058 .elementor-heading-title{color:#313131;font-family:"PT Serif", Sans-serif;font-size:24px;font-weight:700;line-height:34px;}.elementor-3246 .elementor-element.elementor-element-07aac22{--e-icon-list-icon-size:14px;}.elementor-3246 .elementor-element.elementor-element-07aac22 .elementor-icon-list-item > .elementor-icon-list-text, .elementor-3246 .elementor-element.elementor-element-07aac22 .elementor-icon-list-item > a{font-family:"Muli", Sans-serif;font-size:14px;}.elementor-3246 .elementor-element.elementor-element-07aac22 > .elementor-widget-container{margin:5px 0px 0px 0px;}.elementor-3246 .elementor-element.elementor-element-dc6a7e3 .elementor-widget-container{color:#676767;font-family:"Muli", Sans-serif;font-size:14px;line-height:22px;}.elementor-3246 .elementor-element.elementor-element-dc6a7e3 > .elementor-widget-container{margin:10px 0px 0px 0px;}.elementor-3246 .elementor-element.elementor-element-c143a0a .elementor-button{font-family:"Muli", Sans-serif;font-size:13px;font-weight:700;text-shadow:0px 0px 10px rgba(0,0,0,0.3);fill:#393636;color:#393636;background-color:#ededed;border-radius:50px 50px 50px 50px;padding:17px 50px 16px 50px;}.elementor-3246 .elementor-element.elementor-element-c143a0a .elementor-button:hover, .elementor-3246 .elementor-element.elementor-element-c143a0a .elementor-button:focus{color:#ffffff;}.elementor-3246 .elementor-element.elementor-element-c143a0a .elementor-button:hover svg, .elementor-3246 .elementor-element.elementor-element-c143a0a .elementor-button:focus svg{fill:#ffffff;}.elementor-3246 .elementor-element.elementor-element-c143a0a > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}body:not(.rtl) .elementor-3246 .elementor-element.elementor-element-c143a0a{left:50%;}body.rtl .elementor-3246 .elementor-element.elementor-element-c143a0a{right:50%;}.elementor-3246 .elementor-element.elementor-element-c143a0a{bottom:-104px;}@media(max-width:1024px){.elementor-3246 .elementor-element.elementor-element-81c09b9 > .elementor-element-populated{padding:25px 30px 70px 30px;}body:not(.rtl) .elementor-3246 .elementor-element.elementor-element-c143a0a{left:50%;}body.rtl .elementor-3246 .elementor-element.elementor-element-c143a0a{right:50%;}.elementor-3246 .elementor-element.elementor-element-c143a0a{bottom:-93px;}}/* Start custom CSS for heading, class: .elementor-element-58a9058 */.elementor-3246 .elementor-element.elementor-element-58a9058 a:hover,
+.elementor-3246 .elementor-element.elementor-element-58a9058 a:focus {background: linear-gradient(to right bottom, #f40673, #fd0691, #ac147e, #7f056e, #5f096c) !important;
+-webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}/* End custom CSS */
+/* Start custom CSS for icon-list, class: .elementor-element-07aac22 */.elementor-3246 .elementor-element.elementor-element-07aac22.elementor-widget-icon-list .elementor-icon-list-item .elementor-icon-list-text,
+.elementor-3246 .elementor-element.elementor-element-07aac22.elementor-widget-icon-list .elementor-icon-list-item .elementor-icon-list-icon i {background: linear-gradient(to right bottom, #f40673, #fd0691, #ac147e, #7f056e, #5f096c) !important;
+-webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}/* End custom CSS */
+/* Start custom CSS for button, class: .elementor-element-c143a0a */.elementor-3246 .elementor-element.elementor-element-c143a0a {
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.elementor-3246 .elementor-element.elementor-element-c143a0a .elementor-button {
+    background: #ededed;
+    min-width: 180px;
+}
+.elementor-button:hover {
+    background: linear-gradient(to right bottom, #f40673, #fd0691, #ac147e, #7f056e, #5f096c) !important;
+    color: #fff;
+
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-7fe4471 */.elementor-3246 .elementor-element.elementor-element-7fe4471 .elementor-image {
+    overflow: hidden;
+}
+.elementor-3246 .elementor-element.elementor-element-7fe4471 .elementor-image img {
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+.elementor-3246 .elementor-element.elementor-element-7fe4471:hover .elementor-image img {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    -moz-transform: scale(1.1) rotate(3deg);
+    -ms-transform: scale(1.1) rotate(3deg);
+    -o-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+}/* End custom CSS */

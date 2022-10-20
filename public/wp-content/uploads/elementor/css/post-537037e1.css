@@ -1,0 +1,32 @@
+.elementor-5370 .elementor-element.elementor-element-39db711 > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-5370 .elementor-element.elementor-element-39db711 > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:0px 0px 0px 0px;}.elementor-5370 .elementor-element.elementor-element-69172cf .elementor-heading-title{color:#114a5f;font-family:"Muli", Sans-serif;font-size:17px;font-weight:700;}.elementor-5370 .elementor-element.elementor-element-69172cf > .elementor-widget-container{margin:10px 0px 0px 0px;padding:31.5px 25px 31.5px 30px;background-color:#e9f3fa;}@media(max-width:767px){.elementor-5370 .elementor-element.elementor-element-69172cf > .elementor-widget-container{padding:25px 35px 25px 25px;}}/* Start custom CSS for heading, class: .elementor-element-69172cf */.elementor-5370 .elementor-element.elementor-element-69172cf h4 a:hover,
+.elementor-5370 .elementor-element.elementor-element-69172cf h4 a:focus {color: #f26a37;}
+.elementor-5370 .elementor-element.elementor-element-69172cf h4:before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    color: #f26a37;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    position: absolute;
+    text-align: center;
+    right: 25px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-top: 5px;
+}
+
+@media (max-width: 490px) {
+    .elementor-5370 .elementor-element.elementor-element-69172cf h4:before {
+        font-size: 14px;
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
+        right: 15px;
+    }
+}/* End custom CSS */

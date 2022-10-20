@@ -1,0 +1,41 @@
+@media (max-width:1605px) {
+
+
+}
+
+@media (max-width:1366px) {
+	.team-style2-wrap .owl-nav button.owl-prev {
+	    left: -40px;
+	}
+	.team-style2-wrap .owl-nav button.owl-next {
+	    right: -40px;
+	}
+}
+
+@media (max-width:1025px) {
+	.team-style2-item .team-avatar figure::after {
+		width: 92%;
+		left: 14px;
+	}
+	.team-style2-item .team-avatar figure::before {
+		width: 100%;
+		left: 0;
+	}
+
+}
+
+@media (max-width: 850px) {
+
+
+}
+
+@media (max-width:770px) {
+
+}
+
+@media (max-width:490px) {
+	.team-style2-item .team-avatar img {
+		width: 100% !important;
+	}
+
+}

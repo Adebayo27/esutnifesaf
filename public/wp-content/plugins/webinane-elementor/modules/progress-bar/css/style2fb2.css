@@ -1,0 +1,15 @@
+/*=======================================
+	Style 1
+========================================*/
+.circle-progres-bar {
+    margin-left: 26px;
+}
+
+
+
+/*=== RTL Demo Style ===*/
+body.rtl .circle-progres-bar input.dial {right: 45px;}
+body.rtl .circle-progres-bar {
+    margin-left: 0 !important;
+    width: 100%;
+}

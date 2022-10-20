@@ -1,0 +1,393 @@
+/*===================================
+    General Style
+=====================================*/
+.responsive-header-ele {
+    display: none;
+}
+.responsive-menu-ele ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.responsive-menu-ele {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 7px 7px 7px 0;
+    bottom: 0;
+    height: 100%;
+    opacity: 0;
+    padding: 78px 48px 30px;
+    position: fixed;
+    right: -100%;
+    text-align: left;
+    top: 0;
+    visibility: hidden;
+    width: 320px;
+    z-index: 999999;
+    background: rgba(18, 18, 30, 0.95) none repeat scroll 0 0;
+    -webkit-transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    transition: all 0.3s linear 0s;
+}
+.responsive-menu-ele ul ul {
+    display: none;
+}
+.responsive-menu-ele.slidein {
+    opacity: 1;
+    right: 0;
+    visibility: visible;
+    border: 0;
+}
+.responsive-menu-ele ul li {
+    position: relative;
+}
+.responsive-menu-ele ul li a {
+    color: inherit;
+    position: relative;
+    width: 100%;
+    display: block;
+    transition: all 0.2s linear 0s;
+}
+.responsive-menu-ele li.menu-item-has-children > a:after {
+    content: "\f107";
+    color: #fff;
+    position: absolute;
+    right: 25px;
+    font-family: "Font Awesome 5 Free";
+    pointer-events: none;
+}
+/*===================================
+    Style1
+=====================================*/
+
+.responsive-header .header {
+    width: 100%;
+    float: left;
+}
+.responsive-header .res-logo {
+    width: 50%;
+    float: left;
+}
+
+.responsive-header .btn-area {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.responsive-header span.resp-btn >i {
+    width: 100%;
+    height: 2px;
+    background: #111;
+    display: block;
+    margin-bottom: 5px;
+}
+.responsive-header span.resp-btn, 
+.responsive-header .fa-close{
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    float: right;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    padding: 13px;
+}
+.responsive-header {
+    z-index: 999;
+    width: 100%;
+}
+.responsive-header em {
+    display: none;
+}
+
+.responsive-header span.resp-btn {
+    padding: 16px 14px;
+}
+
+.responsive-header span.resp-btn > i {
+    margin: 0;
+    height: 3px;
+}
+
+.responsive-header span.resp-btn > i:nth-child(2) {
+    margin: 4px 0;
+}
+
+
+.responsive-header li {
+    color: #fff;
+}
+
+.responsive-header ul {
+    display: inline-block;
+    width: 100%;
+}
+
+.responsive-menu-ele li.menu-item-has-children > a:after {
+    top: 0;
+}
+
+.responsive-menu-ele ul ul li {
+    font-size: 16px;
+}
+
+.responsive-menu-ele ul ul {
+    padding-left: 20px;
+}
+
+.responsive-menu-ele ul ul li:before {content: "";position: absolute;left: -20px;top: 17px;height: 6px;width: 6px;border-radius: 50%;}
+
+.responsive-menu-ele > ul > li.active {
+    font-size: 25px;
+}
+.responsive-header .responsive-menu {
+    width: 400px;
+    right: 0;
+    padding: 40px;
+    font-size: 20px;
+    background: rgba(0,0,0, 0.7);
+    position: absolute;
+    top: 0;
+}
+.responsive-header .close-menu {
+    width: auto;
+    left: auto;
+    right: 20px;
+}
+.responsive-header .fa-close {
+    float: none;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.responsive-header .fa-close:hover {
+    color: #fff;
+}
+.responsive-header .menu-logo {
+    display: block;
+    width: 100%;
+    margin: 20px 0px 40px 0;
+}
+.responsive-header .menu-logo {
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+.responsive-header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+.responsive-header li {
+    padding: 5px 0;
+    display: block;
+    width: 100%;
+}
+/*===================================
+    Style2
+=====================================*/
+.responsive-header-style2 .header-style2{
+    display: flex;
+    min-height: 54px;
+    padding: 0 25px 0 50px;
+    align-items: center;
+}
+.header-style2 .resp-btn > i {
+    background-color: #fff;
+    display: block;
+    margin: 4px 0;
+}
+.header-style2 .res-btns span{
+    margin: 0 10px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.res-btns {
+    display: flex;
+    vertical-align: middle;
+}
+.header-style2 .res-btns span:last-child {
+    margin-right: 0;
+}
+.cart-btn .cart-icon {
+    position: relative;
+}
+.cart-btn .cart-icon i {
+    height: 20px;
+    width: 20px;
+    line-height: 21px;
+    background-color: #cc9c4a;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    font-size: 11px;
+    text-align: center;
+}
+.cart-btn .item-price {
+    font-size: 13px;
+    font-weight: 700;
+}
+/*===================================
+    Search
+=====================================*/
+.res-search-form {
+    position: absolute;
+    bottom: -65px;
+    right: 0;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.res-search-form.active {
+    opacity: 1;
+    visibility: visible;
+}
+.res-search-form input {
+    height: 48px;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
+    color: #666;
+    font-size: 14px;
+    padding: 10px 16px;
+    width: 270px;
+    bottom: -83px;
+}
+.res-search-form #searchsubmit {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 12px;
+    top: 11px;
+    color: #a5a5a5;
+}
+
+@media (max-width: 1030px) { 
+    .responsive-header-ele {
+        display: block;
+    }
+}
+
+/*===== Sticky Header =====*/
+.sticky-header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,.08);
+    -ms-box-shadow: 0 0 20px rgba(0,0,0,.08);
+    -o-box-shadow: 0 0 20px rgba(0,0,0,.08);
+    box-shadow: 0 0 20px rgba(0,0,0,.08);
+    -webkit-transition:all .4s linear;
+    -ms-transition:all .4s linear;
+    -o-transition:all .4s linear;
+    transition:all .4s linear;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 9999;
+}
+body.admin-bar .sticky-header.sticky-active {top: 32px;}
+.sticky-header > div {
+    max-width: 1170px;
+    text-align: initial;
+    margin: 0 0 -6px;
+    display: inline-block !important;
+    width: 100%;
+}
+.sticky-header > div > div.res-logo {
+    max-width: 20%;
+    -ms-flex: initial;
+    flex: initial;
+    float: left;
+}
+.sticky-header > div > div.sticky-menu {
+    -ms-flex: initial;
+    flex: initial;
+    max-width: 70%;
+    float: right;
+}
+.sticky-header > div > div.sticky-menu ul {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+    width: 100%;
+    float: left;
+}
+.sticky-header > div > div.sticky-menu ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 250px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    -ms-box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    -o-box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    opacity: 0;
+    visibility: hidden;
+}
+.sticky-header > div > div.sticky-menu ul li {
+    position: relative;
+    font-size: 16px;
+}
+.sticky-header > div > div.sticky-menu > ul > li {
+    font-size: 18px;
+    float: left;
+    line-height: 80px;
+    color: #333;
+    font-weight: 700;
+}
+.sticky-header > div > div.sticky-menu > ul > li + li {
+    margin-left: 50px;
+}
+.sticky-header > div > div.res-logo > a {
+    width: 100%;
+    display: block;
+    padding: 13.5px 0;
+}
+.sticky-header > div > div.sticky-menu > ul > li a {
+    color: inherit;
+}
+.sticky-header > div > div.sticky-menu ul ul li a {
+    display: block;
+    padding: 10px 25px;
+}
+.sticky-header > div > div.sticky-menu ul ul li + li {
+    border-top: 1px dashed #eaeaea;
+}
+.sticky-header > div > div.sticky-menu ul ul ul {
+    left: 100%;
+    top: 0;
+}
+.sticky-header > div > div.sticky-menu > ul li.menu-item-has-children:hover > ul,
+.sticky-header.sticky-active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/*===== Stick

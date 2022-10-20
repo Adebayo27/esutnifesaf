@@ -1,0 +1,13 @@
+@media (max-width:490px) {
+    .progrss-bar-wrap .row {justify-content: center;}
+    .circle-progres-bar {margin-left: 0;display: inline-block;}
+
+
+    /*=== RTL Demo Style ===*/
+    body.rtl .circle-progres-bar input.dial {
+        right: 0;
+        left: 0;
+        width: 100% !important;
+    }
+
+}

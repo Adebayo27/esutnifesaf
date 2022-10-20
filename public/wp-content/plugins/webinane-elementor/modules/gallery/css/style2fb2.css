@@ -1,0 +1,59 @@
+/*=====================================
+	Style 1
+======================================*/
+.galery-img {
+	position: relative;
+}
+.galery-img img {
+	width: 100%;
+}
+.galery-img > span {
+	display: block;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.50s;
+	-webkit-transition: all 0.50s;
+	-moz-transition: all 0.50s;
+	-o-transition: all 0.50s;
+	z-index: 1;
+}
+.galery-img figure a {
+	position: relative;
+	display: block;
+}
+.galery-img figure a::before {
+	content: "";
+	height: 100%;
+	width: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.35s;
+	-webkit-transition: all 0.35s;
+	-moz-transition: all 0.35s;
+	-o-transition: all 0.35s;
+}
+.galery-itm:hover figure a::before {
+	opacity: 1;
+	visibility: visible;
+	width: 100%;
+}
+.galery-itm:hover .galery-img > span {
+	opacity: 1;
+	visibility: visible;
+}
+.galry-caption > span {
+	display: block;
+	padding-top: 15px;
+}

@@ -1,0 +1,143 @@
+/*=======================================
+ 	likes Style 1
+========================================*/
+.post-liks > span {
+	display: block;
+	padding-top: 5px;
+}
+.post-liks > a {
+	font-size: 30px;
+}
+
+/*=======================================
+ 	Flickr Style 1
+========================================*/
+.flickr-gal {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.flickr-gal li img {
+	padding: 1px;
+}
+
+/*=======================================
+   Instagram Style 1
+========================================*/
+.insta-img a {
+    max-width: 32%;
+    display: inline-block;
+}
+.insta-img figure {
+	overflow: hidden;
+    transition: all 0.45s;
+    -webkit-transition: all 0.45s;
+    -moz-transition: all 0.45s;
+    -o-transition: all 0.45s;
+}
+.insta-img figure:hover img{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+
+/*=======================================
+ 	Twitter Style 1
+========================================*/
+footer .twitter-widget {
+  margin-top: 0;
+}
+.twitter-widget {
+    float: left;
+    padding: 0;
+    margin-top: 30px;
+    width: 100%;
+}
+.twitter-widget > li {
+  display: block;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.twitter-widget > li > i {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  color: #0098e6;
+  float: left;
+  line-height: 40px;
+  text-align: center;
+}
+.twiter-meta {
+  overflow: hidden;
+  padding-left: 13px;
+}
+.twiter-meta > span {
+  font: bold 14px "Poppins";
+  text-transform: capitalize;
+}
+.twitter-meta > span a{
+  color: #0098e6;
+}
+.twiter-meta > span i {
+  color: #a1b1bc;
+  font-style: normal;
+  font-weight: normal;
+}
+.twiter-meta > p {
+  color: #b9b9b9;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+}
+.twiter-meta > a {
+  color: #0098e6;
+  font-size: 16px;
+}
+
+/*=======================================
+  Post Navigation style 1
+========================================*/
+.webinane-post-navigation-borders-yes .webinane-post-navigation__separator {
+  height: 100%;
+  width: 1px;
+  margin: 0 auto;
+  background-color: #d4d4d4;
+}
+
+/*=======================================
+  Instagram style 1
+========================================*/
+.instagram-wrap .instagram-post {
+    position: relative;
+}
+.instagram-wrap .instagram-post a i {
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: white;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode: screen;
+    border-radius: 3px;
+}
+.instagram-wrap .instagram-post:hover i{
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+.instagram-wrap .instagram-post a:before {content: "";width: 50%;height: 100%;position: absolute;left: 0;top: 0;opacity: 0;visibility: hidden;}
+
+.instagram-wrap .instagram-post:hover a:before {
+    opacity: 0.8;
+    visibility: visible;
+    width: 100%;
+}
